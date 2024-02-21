@@ -9,3 +9,4 @@ do
         docker pull $IMAGE
     done
 done
+
