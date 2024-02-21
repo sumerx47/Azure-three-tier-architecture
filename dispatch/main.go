@@ -79,7 +79,7 @@ func rabbitConnector(uri string) {
 		// bind queue to exchange
 		err = rabbitChan.QueueBind(queue.Name, "orders", "robot-shop", false, nil)
 		failOnError(err, "Failed to bind queue")
-
+		//
 		// signal ready
 		rabbitReady <- true
 	}

@@ -7,7 +7,7 @@ db.users.insertMany([
     {name: 'stan', password: 'bigbrain', email: 'stan@instana.com'},
     {name: 'partner-57', password: 'worktogether', email: 'howdy@partner.com'}
 ]);
-
+//
 // unique index on the name
 db.users.createIndex(
     {name: 1},

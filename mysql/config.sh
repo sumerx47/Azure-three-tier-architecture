@@ -5,6 +5,7 @@ DIR="/etc/mysql"
 FILE=$(fgrep -Rl datadir "$DIR")
 if [ -n "$FILE" ]
 then
+    #
     # mkdir /data/mysql
     echo " "
     echo "Updating $FILE"
