@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#
 # Config here
 KEY="your unique key"
 ENDPOINT="endpoint for your tennant"
