@@ -1,5 +1,5 @@
 # Instana Agent Installation
-
+#
 See the official [documentation](https://docs.instana.io/quick_start/agent_setup/container/openshift/) for how to install the Instana agent on an OpenShift environment.
 
 # Robot Shop Deployment
